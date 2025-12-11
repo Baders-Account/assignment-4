@@ -67,18 +67,20 @@ a {
 }
 
 
+
 body:not(.dark-mode) .navbar .nav-link:hover,
 body:not(.dark-mode) .navbar .navbar-brand:hover {
-    color: #e6ccb2 !important; 
-    opacity: 0.85;
+    color: #22333B !important; 
+    opacity: 0.8; 
 }
 
 
 body.dark-mode .navbar .nav-link:hover,
 body.dark-mode .navbar .navbar-brand:hover {
     color: #e6ccb2 !important; 
-    opacity: 0.85;
+    opacity: 0.8; 
 }
+
 
 
 .navbar.navbar-dark.container-fluid .nav-link:hover,
