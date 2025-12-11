@@ -125,6 +125,11 @@ body.dark-mode .navbar .navbar-brand:hover {
    
 }
 
+/* Projects */
+#projects{
+  padding-top: 4rem;    
+   
+}
 
 /* SELECTS */
 option {
