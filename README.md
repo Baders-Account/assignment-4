@@ -86,7 +86,7 @@ You can either clone the repository using Git or download the ZIP file manually.
 
 ### Option 1 — Clone with Git
 
- git clone https://github.com/Baders-Account/assignment-2.git  cd assignment-2   `
+ git clone https://github.com/Baders-Account/assignment-4.git  cd assignment-4   `
 
 ### Option 2 — Download ZIP
 
@@ -102,7 +102,7 @@ You can either clone the repository using Git or download the ZIP file manually.
 
 Navigate into the project directory:
 
-  cd assignment-2   `
+  cd assignment-4   `
 
 3\. Run the Website
 -------------------
