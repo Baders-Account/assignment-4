@@ -71,6 +71,14 @@ a {
   color: #e6ccb2 !important;
 }
 
+
+.navbar.navbar-dark.container-fluid .nav-link:hover,
+.navbar.navbar-dark.container-fluid .navbar-brand:hover {
+  color: #22333B !important; 
+  opacity: 0.8;              
+  transition: color 0.3s ease;
+}
+
 /* CONTACT SECTION */
 #contact {
   background-color: #22333B;
