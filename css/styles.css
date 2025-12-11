@@ -104,6 +104,14 @@ a {
   transform: translateY(-3px);
 }
 
+
+/* About Me */
+#intro {
+  padding-top: 4rem;    
+  padding-bottom: 4rem; 
+}
+
+
 /* SELECTS */
 option {
   color: #22333B;
