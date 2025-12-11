@@ -1,26 +1,23 @@
-/*LIGHT MODE*/
+/* LIGHT MODE */
 body {
   background-color: #e6ccb2;
-  color: #22333B; 
-}
-
-.title {
-  font-weight: bold;
   color: #22333B;
 }
 
+.title,
 .text-dark,
 .nav-link,
 h1, h2, h3, h4, h5, h6,
-p, li, label {
+p, li, label,
+a {
   color: #22333B;
 }
 
 a {
-  color: #22333B;
   text-decoration: none;
 }
 
+/* GitHub Button */
 #github {
   background-color: #22333B;
   color: #e6ccb2;
@@ -31,22 +28,15 @@ a {
 #github:hover {
   opacity: 0.85;
   transform: translateY(-3px);
-  
 }
-
-
-
-
 
 .cursor-pointer {
   cursor: pointer;
 }
 
-
+/* NAVBAR */
 .navbar {
   background-color: #e6ccb2 !important;
-
-
 }
 
 .navbar .btn {
@@ -60,8 +50,6 @@ a {
   color: #e6ccb2;
 }
 
-
-
 .navbar-dark .navbar-nav .nav-link,
 .navbar-dark .navbar-brand {
   color: #22333B !important;
@@ -69,14 +57,10 @@ a {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-brand:hover {
-  color: #e6ccb2 !important; 
+  color: #e6ccb2 !important;
 }
 
-.form-label {
-  color: #22333B;
-  font-weight: bold;
-}
-
+/* CONTACT SECTION */
 #contact {
   background-color: #22333B;
   color: #e6ccb2;
@@ -86,22 +70,16 @@ a {
   transition: all 0.3s ease;
 }
 
-#contact h3{
-    color: #e6ccb2;
+#contact h3,
+#contact .form-label {
+  color: #e6ccb2;
 }
-
-#contact .form-label{
-    color:#e6ccb2
-}
-
 
 #contact .form-control {
   background-color: #e6ccb2;
   color: #22333B;
-  
   transition: all 0.3s ease;
 }
-
 
 #contact .btn-primary {
   background-color: #e6ccb2;
@@ -111,16 +89,30 @@ a {
 }
 
 #contact .btn-primary:hover {
-   opacity: 0.85;
-  transform: translateY(-3px); 
+  opacity: 0.85;
+  transform: translateY(-3px);
 }
 
-option{
-    color: #22333B;
+/* SELECTS */
+option {
+  color: #22333B;
 }
+
+#choices,
+#sortProjects {
+  background-color: #22333B;
+  color: #e6ccb2;
+}
+
+#choices option,
+#sortProjects option {
+  color: #e6ccb2;
+}
+
+/* CARDS */
 .card-body {
   background-color: #22333B;
-  color: #e6ccb2; 
+  color: #e6ccb2;
 }
 
 .anchors .card-text {
@@ -133,30 +125,9 @@ option{
 }
 
 .card:hover {
-  opacity: 0.85;           
-  transform: translateY(-3px); 
+  opacity: 0.85;
+  transform: translateY(-3px);
 }
-
-#choices{
-    background-color: #22333B;
-    color: #e6ccb2;
-}
-
-#choices option{
-    color:#e6ccb2 ;
-
-}
-
-#sortProjects{
-    background-color: #22333B;
-    color: #e6ccb2;
-}
-
-#sortProjects option{
-    color:#e6ccb2 ;
-
-}
-
 
 
 /* DARK MODE */
@@ -168,122 +139,94 @@ option{
 .dark-mode #github {
   background-color: #e6ccb2;
   color: #22333B;
-  font-weight: bold;
 }
-
 
 .dark-mode .navbar {
   background-color: #22333B !important;
 }
+
 .dark-mode .navbar-dark .navbar-nav .nav-link,
 .dark-mode .navbar-dark .navbar-brand {
   color: #e6ccb2 !important;
 }
 
-
 .dark-mode .navbar .btn {
   color: #e6ccb2;
   border-color: #e6ccb2;
 }
+
 .dark-mode .navbar .btn:hover {
   background-color: #e6ccb2;
   color: #22333B;
 }
 
-
+/* Dark Mode Cards */
 .dark-mode .card-body {
   background-color: #e6ccb2;
-  
+  color: #22333B;
 }
 
-.dark-mode .card-text{
-    color: #22333B !important;
-}
-.dark-mode .card-title{
-    color: #22333B !important;
+.dark-mode .card-text,
+.dark-mode .card-title {
+  color: #22333B !important;
 }
 
-
-.dark-mode h1, .dark-mode h2, .dark-mode h3,
-.dark-mode h4, .dark-mode h5, .dark-mode h6,
-.dark-mode p, .dark-mode li, .dark-mode label {
+/* General Text in Dark Mode */
+.dark-mode h1, 
+.dark-mode h2, 
+.dark-mode h3,
+.dark-mode h4, 
+.dark-mode h5, 
+.dark-mode h6,
+.dark-mode p, 
+.dark-mode li, 
+.dark-mode label {
   color: #e6ccb2 !important;
 }
 
-
+/* Links */
 .dark-mode a {
   color: #e6ccb2;
 }
+
 .dark-mode a:hover {
   opacity: 0.8;
 }
 
-
-
-
+/* Contact in Dark Mode */
 .dark-mode #contact {
-  background-color: #e6ccb2 !important;     
-  color: #22333B;               
-  padding: 3rem 1rem;
-  border-radius: 1rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
+  background-color: #e6ccb2 !important;
+  color: #22333B;
 }
 
-.dark-mode #contact h3 {
-  color: #22333B !important;
-}
-
+.dark-mode #contact h3,
 .dark-mode #contact .form-label {
   color: #22333B !important;
 }
 
-
 .dark-mode #contact .form-control {
   background-color: #22333B !important;
   color: #e6ccb2;
- 
-  transition: all 0.3s ease;
 }
-
-
 
 .dark-mode #contact .btn-primary {
-  background-color: #22333B;  
-  color: #e6ccb2;             
-  border: none;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  background-color: #22333B;
+  color: #e6ccb2;
 }
 
-.dark-mode #contact .btn-primary:hover {
-  opacity: 0.85;
-  transform: translateY(-3px);
+/* Selects in Dark Mode */
+.dark-mode #choices,
+.dark-mode #sortProjects {
+  background-color: #e6ccb2;
+  color: #22333B;
 }
 
-
-.dark-mode #choices{
-    background-color: #e6ccb2;
-    color: #22333B;
+.dark-mode #choices option,
+.dark-mode #sortProjects option {
+  color: #22333B;
 }
 
-.dark-mode #choices option{
-    color:#22333B ;
-
-}
-
-.dark-mode #sortProjects{
-    background-color: #e6ccb2;
-    color: #22333B;
-}
-
-.dark-mode #sortProjects option{
-    color:#22333B ;
-
-}
-
-
-
-
+/* Smooth transitions */
 body, h1, h2, h3, h4, h5, h6, p, li, label, a, .navbar, .card-body {
   transition: all 0.3s ease;
 }
